@@ -220,7 +220,7 @@ Function Select-RepositoryAndBranch() {
     
     if ([string]::IsNullOrEmpty($script:repo)) {
         # Try get repo name / TODO
-        $script:repo = "https://github.com/achu152/Industrial-IoT
+        $script:repo = "https://github.com/achu152/Industrial-IoT"
     }
 
     if ([string]::IsNullOrEmpty($script:branchName)) {
