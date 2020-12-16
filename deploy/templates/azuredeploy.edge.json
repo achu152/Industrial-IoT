@@ -209,7 +209,7 @@
         },
         "templateUrl": {
             "type": "string",
-            "defaultValue": "https://raw.githubusercontent.com/Azure/Industrial-IoT",
+            "defaultValue": "https://github.com/achu152/Industrial-IoT",
             "metadata": {
                 "description": "The artifacts url from which to pull all linked templates.  Default is official repository."
             }
