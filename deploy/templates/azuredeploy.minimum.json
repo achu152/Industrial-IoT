@@ -170,7 +170,7 @@
         },
         "iotHubName": {
             "type": "string",
-            "defaultValue": "[concat('iothub-', take(uniqueString(subscription().subscriptionId, resourceGroup().id), 6))]",
+            "defaultValue": "[concat('USECNSE001-', take(uniqueString(subscription().subscriptionId, resourceGroup().id), 6))]",
             "metadata": {
                 "description": "The name of Azure IoT Hub created as part of the deployment."
             }
